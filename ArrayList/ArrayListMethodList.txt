@@ -1,0 +1,6 @@
+ArrayList method
+==================
+add();
+add(int index , Element e);
+get(int index);
+clear();

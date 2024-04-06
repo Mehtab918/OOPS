@@ -1,0 +1,17 @@
+Interfaces that extend the Java Collections Interface
+
+
+Iterable Interface is the root interface of entire collection
+add(Object obj) -> this method is used to add an object to the collection.
+
+common exceptions occured here due to this method :
+
+Exceptions: This method throws 5 following exceptions listed below as follows:
+
+1) UnsupportedOperationException: if the add operation is not supported by this collection
+2) ClassCastException: if the class of the specified element prevents it from being added to this collection
+3) NullPointerException: if the specified element is null and this collection does not permit null elements
+4) IllegalArgumentException: if some property of the element prevents it from being added to this collection
+5) IllegalStateException: if the element cannot be added at this time due to insertion restrictions
+
+
